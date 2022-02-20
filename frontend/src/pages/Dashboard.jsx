@@ -10,7 +10,7 @@ const Dashboard = () => {
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.auth);
 
-  const { goals, isError, isSuccess, isLoading, message } = useSelector(
+  const { goals, isError, isLoading, message } = useSelector(
     (state) => state.goals
   );
   console.log(goals);
